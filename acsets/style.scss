@@ -1,0 +1,141 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    &__top {
+        background-color: #000;
+        height: 46px;
+    }
+
+    &__list {
+        margin: 0;
+        display: block;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item-down,
+    &__link {
+        color: #fff;
+        float: left;
+        padding: 14px 20px 14px 15px;
+        display: block;
+        position: relative;
+        text-decoration: none;
+    }
+
+    &__item-down:hover,
+    &__link:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+
+    &__item-down:hover>.navheader__list {
+        display: block;
+    }
+
+    .navheader {
+
+        &__list {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            left: 0;
+            padding: 0;
+            width: 130px;
+            top: 46px;
+        }
+
+        &__item,
+        &__link {
+            list-style: none;
+            padding: 10px 0 10px 7px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        &__link:hover,
+        &__item:hover {
+            background-color: #ccc;
+        }
+
+
+    }
+
+    .header__search {
+        color: #fff;
+        clear: both;
+
+        &-icon {
+            position: absolute;
+            right: 0;
+            top: -8px;
+            padding: 25px 22px 13px 23px;
+            font-size: 16px;
+        }
+
+        &-icon:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+
+}
+
+#img__slider {
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin-top: 46px;
+    background: url(./img/la.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.img {
+    &__text {
+        color: #fff;
+        display: block;
+        position: absolute;
+        bottom: 200px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.about {
+    position: relative;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    &__title {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__sub {
+        display: block;
+        font-weight: 300;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+
+    &__desc {
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+
+}
