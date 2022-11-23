@@ -177,3 +177,69 @@ html {
 
 
 }
+
+.contain {
+    background-color: #000000;
+    color: #fff;
+
+
+    &__tour {
+        position: relative;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 16px 64px 16px;
+
+        &-h3 {
+            font-size: 32px;
+            letter-spacing: 4px;
+            font-weight: 400;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        &-sub {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            opacity: 0.6;
+        }
+    }
+
+    &__form {
+        background-color: #fff;
+        color: #b0b0b0;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+
+    &__item {
+        padding: 8px 16px;
+        height: 24px;
+        border-bottom: 1px solid #b0b0b0;
+
+        &-sub {
+            background-color: red;
+            color: #fff;
+            margin-left: 16px;
+            padding: 0 8px;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        &-number {
+            float: right;
+            color: #fff;
+            background-color: #000;
+            border-radius: 50%;
+            padding: 5px 10px;
+            transform: translateY(-2px);
+        }
+    }
+}

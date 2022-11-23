@@ -140,4 +140,60 @@ html {
   width: 60.333%;
   align-items: center;
   border-radius: 4px;
+}
+
+.contain {
+  background-color: #000000;
+  color: #fff;
+}
+.contain__tour {
+  position: relative;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 16px 64px 16px;
+}
+.contain__tour-h3 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0;
+}
+.contain__tour-sub {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+.contain__form {
+  background-color: #fff;
+  color: #b0b0b0;
+}
+.contain__list {
+  list-style: none;
+  padding-left: 0;
+}
+.contain__item {
+  padding: 8px 16px;
+  height: 24px;
+  border-bottom: 1px solid #b0b0b0;
+}
+.contain__item-sub {
+  background-color: red;
+  color: #fff;
+  margin-left: 16px;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 17px;
+}
+.contain__item-number {
+  float: right;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 5px 10px;
+  transform: translateY(-2px);
 }/*# sourceMappingURL=style.css.map */
